@@ -189,7 +189,9 @@ const galleryItems = [
 { id: 73, path: 'images/trim_castle_side.jpg', description: 'Trime Castle in Ireland.', likes: 0 },
 { id: 74, path: 'images/vet_services_pigeons.jpg', description: 'Vet services sign for your cow, dog, or pigeon.', likes: 0 },
 { id: 75, path: 'images/wheeler_lake.jpg', description: 'Snow fed mountain lake, Wheeler Lake, near Alma and Leadville, Colorado. The lake is at 12K ft elevation.', likes: 0 },
-
+{ id: 76, path: 'images/Dam_Diving.jpg', description: 'Diving off a dam near my family\'s cabin in Wisconson.', likes: 0 },
+{ id: 77, path: 'images/Harper.jpg', description: 'A fun pic of my dog Harper.', likes: 0 },
+{ id: 78, path: 'images/Montanna.jpg', description: 'Me and my wife enjoying a vacation in Montanna.', likes: 0 },
 ];
 
 module.exports = galleryItems;
