@@ -16,10 +16,18 @@
 .photo {
   width: 100px;
   height: 100px;
-  float: left;
+  float: top;
+}
+
+.description {
+  width: 100px;
+  height: 100px;
+  float: top;
 }
 
 .content {
-  margin: 30px;
-  padding: 10px;
+  margin: 10px;
+  float: left;
+  
+  
 }
