@@ -6,6 +6,7 @@ import GalleryList from '../GalleryList/GalleryList'
 
 function App() {
   let [gallery, setGallery] = useState([]);
+  
 
   useEffect(() => {
     getImages();
@@ -30,7 +31,7 @@ function App() {
           <h1 className="App-title">Gallery of My Life</h1>
           <p>Gallery goes here</p>
         </header>
-        <GalleryList />
+        <GalleryList gallery={gallery} />
       </div>
     );
 }

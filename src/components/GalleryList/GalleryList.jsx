@@ -1,10 +1,14 @@
 import GalleryItem from '../GalleryItem/GalleryItem';
 
-function GalleryList () {
+function GalleryList (props) {
     return(
         <>
             <h2>GalleryList</h2>
-            <GalleryItem />
+            <div>
+                {props.gallery.map( ( photo )=>
+                    <GalleryItem photo={photo} key={photo.id}/>
+                )}
+            </div>
         </>
     )
 }

@@ -13,3 +13,13 @@
   font-size: 1.5em;
 }
 
+.photo {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.content {
+  margin: 30px;
+  padding: 10px;
+}
