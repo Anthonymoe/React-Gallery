@@ -6,7 +6,7 @@ function GalleryList (props) {
             <h2>GalleryList</h2>
             <div>
                 {props.gallery.map( ( photo )=>
-                    <GalleryItem photo={photo} key={photo.id}/>
+                    <GalleryItem photo={photo} key={photo.id} addLike={props.addLike}/>
                 )}
             </div>
         </>

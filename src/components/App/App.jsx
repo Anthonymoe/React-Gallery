@@ -7,6 +7,7 @@ import GalleryList from '../GalleryList/GalleryList'
 function App() {
   let [gallery, setGallery] = useState([]);
   
+  
 
   useEffect(() => {
     getImages();
@@ -24,6 +25,16 @@ function App() {
     })
   }
 
+  const addLike = (photo) => {
+    console.log( 'in addLike:', photo );
+    axios.put( '/gallery/like/' + photo ).then( response => {
+      getImages();
+    }).catch( err => {
+      alert( 'error adding likes' )
+      console.log(err);
+    })
+  }//where i left off
+
 
     return (
       <div className="App">
@@ -31,7 +42,7 @@ function App() {
           <h1 className="App-title">Gallery of My Life</h1>
           <p>Gallery goes here</p>
         </header>
-        <GalleryList gallery={gallery} />
+        <GalleryList gallery={gallery} addLike={addLike} />
       </div>
     );
 }

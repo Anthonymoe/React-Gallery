@@ -14,20 +14,30 @@
 }
 
 .photo {
-  width: 100px;
-  height: 100px;
-  float: top;
+  width: 200px;
+  height: 200px;
+  float: bottom;
+  
 }
 
 .description {
   width: 100px;
   height: 100px;
-  float: top;
+  
 }
 
 .content {
-  margin: 10px;
-  float: left;
+  margin: 50px;
+  float: right;
+  text-align: center;
   
   
+}
+
+.button {
+  float: top;
+  display: block;
+  align-items: center;
+  justify-content: center;
+
 }
