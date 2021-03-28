@@ -1,0 +1,28 @@
+.photo {
+    width: 200px;
+    height: 200px;
+    float: bottom;
+    object-fit: cover;
+  }
+
+  .description {
+    width: 200px;
+    height: 200px;
+    word-wrap: break-word;
+    float: bottom;
+    
+  }
+
+.content {
+    margin: 50px;
+    display: inline-grid; 
+    
+  }
+
+  .button {
+    float: top;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  
+  }

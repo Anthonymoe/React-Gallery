@@ -42,7 +42,9 @@ function App() {
           <h1 className="App-title">Gallery of My Life</h1>
           <p>Gallery goes here</p>
         </header>
+        <div className="App-gallery">
         <GalleryList gallery={gallery} addLike={addLike} />
+        </div>
       </div>
     );
 }

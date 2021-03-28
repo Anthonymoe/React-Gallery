@@ -13,31 +13,6 @@
   font-size: 1.5em;
 }
 
-.photo {
-  width: 200px;
-  height: 200px;
-  float: bottom;
-  
-}
-
-.description {
-  width: 100px;
-  height: 100px;
-  
-}
-
-.content {
-  margin: 50px;
-  float: right;
-  text-align: center;
-  
-  
-}
-
-.button {
-  float: top;
-  display: block;
-  align-items: center;
-  justify-content: center;
-
+.App-gallery {
+  background-color: cadetblue;
 }
