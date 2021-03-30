@@ -1,9 +1,20 @@
-# Project Name
-
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+# REACT Gallery
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+This is my first react app. For this project I took a gallery of photos and rendered them to the DOM using react. I created two components to send props to. The user is able to view the photos, like photos, and click on each individual image to view the description. The styling is not the greatest by I am proud of the logic. 
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+Tech used: 
+
+* React
+* HTML
+* CSS
+* javaScript 
+* Node.js
+
+
+![](public/images/galleryScreenShot.png)
+
+## Thank You
+
+I would like to give a special shoutout to dEv Jana and my other instructors at Prime Academy for teaching me the skills and creating the requirements for this project.  
